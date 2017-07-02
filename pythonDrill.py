@@ -39,9 +39,9 @@ if not number3%2==0:
 if number1>9 and number2>9 and number3>9:
   print("they are all positive two digit numbers")
 elif number1%2==0 and number2%2==0 and number3%2==0:
-  print("they are all even single digit numbers")
+  print("they are all positive even numbers with different numbers of digits")
 else:
-  print("they are single digit numbers that are not all even or odd")
+  print("they are positive numbers with different numbers of digits, and are not all even or odd")
 
 # 8. Use of a while loop
 x=0
